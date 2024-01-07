@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+}
+form{
+  margin-bottom: 1rem;
+}
+form input{
+  padding: .3rem 1rem;
+  border: 1px solid #000;
+  border-radius: 5px;
+  outline: 0;
+
+}
+form button{
+  padding: .3rem 1rem;
+  border: 1px solid #000;
+  border-radius: 5px;
+  outline: 0;
+  margin-left: .5rem;
+  cursor: pointer;
+}
+.App{
+  padding: 1rem;
+  background-color: #666;
+  border-radius: 8px;
+}
+.todo{
+  display: flex;
+  justify-content: space-between;
+  padding: .4rem 0;
+}
+.todo h4{
+  color: #eee;
+}
+.todo button{
+  padding: 3px 5px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  outline: 0;
+}
